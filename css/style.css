@@ -1,1 +1,16 @@
-/*# sourceMappingURL=style.css.map */
+section {
+  margin: 0;
+  padding: 0;
+}
+section div {
+  display: flex;
+}
+section div div {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+section div div img {
+  max-width: 350px;
+  width: 100%;
+}/*# sourceMappingURL=style.css.map */
