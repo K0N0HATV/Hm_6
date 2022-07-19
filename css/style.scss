@@ -62,4 +62,20 @@
     }
 }
 
-
+section{
+    div{
+        display: flex;
+        div{
+            flex-direction: column;
+            img{
+                max-width: 350px;
+                width: 100%;
+            }
+        }
+    }
+}
+div{
+    h1{
+        text-align: center;
+    }
+}
