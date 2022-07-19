@@ -31,9 +31,11 @@
                     border: 1px dashed #adb1b8;
                     &.disable{
                         color: #CCC;
+                        color: #adb1b8;
                     }
                     &.active{
                         border: 1px solid #E47911;
+                        
                     }
 
                 }
