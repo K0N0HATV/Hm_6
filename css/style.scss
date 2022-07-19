@@ -10,6 +10,23 @@
             display: flex;
             flex-direction: column;
             gap: 8px;
+            &-footer{
+                display: flex;
+                gap: 20px;
+                button{
+                    background-color: aquamarine;
+                    color: black;
+                    padding: 7px 15px;
+                    border: 1px dashed aqua;
+                    &.disable_1{
+                        color: aqua;
+                    }
+                    &.active_2{
+                        border: 1px solid #E47911;
+                    }
+                }
+            }
+            
             &-title{
                 font-size: 14px;
                 line-height: 20px;
@@ -19,6 +36,7 @@
                     font-weight: 700;
                 }
             }
+            
             &-buttons{
                 display: flex;
                 flex-wrap: wrap;
