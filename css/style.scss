@@ -1,3 +1,127 @@
+
+@mixin flex {
+    display: flex;
+    justify-content: center;
+    gap: 19px;
+}
+
+@mixin text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+}
+
+@mixin column {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+
+}
+
+@mixin width {
+    width: 100%
+}
+
+
+
+section {
+
+
+    .conteiner {
+        @include flex;
+        margin-top: 20px;
+
+        .box {
+            @include column;
+
+
+            .box_1 {
+                max-width: 390px;
+
+
+                picture {
+
+                    img {
+                        width: 100%;
+
+                    }
+                }
+
+            }
+
+            p {
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: x-small;
+
+
+            }
+        }
+
+
+            .box_2 {
+
+                @include flex;
+
+
+                picture {
+                    max-width: 85px;
+
+                    img {
+                        @include width;
+                    }
+                }
+            }
+                .block{
+                    @include column;
+                   
+
+                    .block_1{
+                        max-width: 455px;
+                    width: 100%;
+
+                        h1{
+                            font-size:larger;
+                            font-family:Arial, Helvetica, sans-serif;
+
+                        }
+                        a{
+                            text-decoration: none;
+                            color: rgb(92, 170, 215);
+                            font-size:smaller;
+                         
+                        }
+                    }
+                    
+                    .block_2{
+                        display: flex;
+                        justify-content: flex-start;
+
+                        link{
+                           
+                            span{
+                                .checked {
+                                    background-color: orange;
+                                    color: orange;
+                                
+                            }
+                        }
+                    }
+
+
+                }
+           
+
+
+       
+
+
+
+
+
+            }
+        }
+
 .amazon {
   margin-top: 100px;
 
@@ -52,3 +176,4 @@
     }
   }
 }
+

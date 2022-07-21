@@ -1,3 +1,62 @@
+
+section .conteiner {
+  display: flex;
+  justify-content: center;
+  gap: 19px;
+  margin-top: 20px;
+}
+section .conteiner .box {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+section .conteiner .box .box_1 {
+  max-width: 390px;
+}
+section .conteiner .box .box_1 picture img {
+  width: 100%;
+}
+section .conteiner .box p {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+}
+section .conteiner .box_2 {
+  display: flex;
+  justify-content: center;
+  gap: 19px;
+}
+section .conteiner .box_2 picture {
+  max-width: 85px;
+}
+section .conteiner .box_2 picture img {
+  width: 100%;
+}
+section .conteiner .block {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+section .conteiner .block .block_1 {
+  max-width: 455px;
+  width: 100%;
+}
+section .conteiner .block .block_1 h1 {
+  font-size: larger;
+  font-family: Arial, Helvetica, sans-serif;
+}
+section .conteiner .block .block_1 a {
+  text-decoration: none;
+  color: rgb(92, 170, 215);
+  font-size: smaller;
+}
+section .conteiner .block .block_2 {
+  display: flex;
+  justify-content: flex-start;
+}
+section .conteiner .block .block_2 link span {
+  background-color: orange;
+
 .amazon {
   margin-top: 100px;
 }
@@ -43,4 +102,5 @@
   height: 24px;
   width: 24px;
   cursor: pointer;
+
 }/*# sourceMappingURL=style.css.map */
