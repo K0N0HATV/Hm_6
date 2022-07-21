@@ -80,6 +80,18 @@ section .conteiner .block .block_2 link span .checked {
   flex-direction: column;
   gap: 10px;
 }
+.amazon_2 .container .left_block .left_img .list_img {
+  border: 1px solid gray;
+}
+.amazon_2 .container .left_block .left_img .list_img:hover {
+  box-shadow: 2px 2px 2px orangered;
+}
+.amazon_2 .container .left_block .left_img p {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 9px;
+  width: 40px;
+}
 .amazon_2 .container .left_block .right_img_div {
   display: flex;
   flex-direction: column;
@@ -97,11 +109,12 @@ section .conteiner .block .block_2 link span .checked {
   align-items: center;
   justify-content: center;
   position: absolute;
-  top: 10px;
-  right: 10px;
+  top: 15px;
+  right: -10px;
   background-color: #fff;
-  height: 24px;
-  width: 24px;
+  background-repeat: no-repeat;
+  height: 26px;
+  width: 26px;
   cursor: pointer;
 }
 
