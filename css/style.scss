@@ -80,7 +80,7 @@
         margin-left: 10px;
         position: relative;
         .picture {
-        width: 550px;
+        width: 700px;
         height: 550px;}
         .share {
             position: absolute;
@@ -89,7 +89,11 @@
             width: 30px;
             border-radius: 50%;
 
-            left: 500px;
+            left: 94%;
         }
+    }
+    .text {
+        margin-left: 20px;
+        width: 450px;
     }
 }

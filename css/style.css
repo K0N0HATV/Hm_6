@@ -64,7 +64,7 @@
   position: relative;
 }
 #Tengiz .big_picture .picture {
-  width: 550px;
+  width: 700px;
   height: 550px;
 }
 #Tengiz .big_picture .share {
@@ -73,5 +73,9 @@
   margin-top: 10px;
   width: 30px;
   border-radius: 50%;
-  left: 500px;
+  left: 94%;
+}
+#Tengiz .text {
+  margin-left: 20px;
+  width: 450px;
 }/*# sourceMappingURL=style.css.map */
