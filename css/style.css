@@ -58,14 +58,14 @@ section .conteiner .block .block_2 link span .checked {
   color: orange;
 }
 
-.amazon {
+.amazon_2 {
   margin-top: 100px;
 }
-.amazon .container {
+.amazon_2 .container {
   height: 1000px;
   min-width: 996px;
 }
-.amazon .container .left_block {
+.amazon_2 .container .left_block {
   padding-left: 20px;
   gap: 10px;
   display: flex;
@@ -75,21 +75,21 @@ section .conteiner .block .block_2 link span .checked {
   width: 642px;
   top: 4px;
 }
-.amazon .container .left_block .left_img {
+.amazon_2 .container .left_block .left_img {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
-.amazon .container .left_block .right_img_div {
+.amazon_2 .container .left_block .right_img_div {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 40px;
 }
-.amazon .container .left_block .right_img_div .right_img {
+.amazon_2 .container .left_block .right_img_div .right_img {
   width: 596px;
 }
-.amazon .container .left_block .right_img_div .svg {
+.amazon_2 .container .left_block .right_img_div .svg {
   background-image: url("https://m.media-amazon.com/images/G/01/share-icons/share-std.svg");
   border: 1px solid #ddd;
   border-radius: 50%;
