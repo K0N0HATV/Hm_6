@@ -144,4 +144,45 @@ section .conteiner .block .block_2 link span .checked {
 #Tengiz .text {
   margin-left: 20px;
   width: 450px;
+}
+
+.Zlo_Off {
+  margin-top: 200px;
+}
+.Zlo_Off .container {
+  height: 1000px;
+  min-width: 996px;
+}
+.Zlo_Off .container .left_block {
+  padding-left: 50px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: -webkit-sticky;
+  position: sticky;
+  width: 642px;
+  top: 4px;
+}
+.Zlo_Off .container .left_block .top p {
+  text-align: center;
+  gap: 40px;
+}
+.Zlo_Off .container .left_block .Bottom_img .img {
+  width: 85px;
+}
+.Zlo_Off .container .left_block .btn {
+  background-image: url("https://m.media-amazon.com/images/G/01/share-icons/share-std.svg");
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #fff;
+  height: 24px;
+  width: 24px;
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
