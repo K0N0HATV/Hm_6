@@ -1,53 +1,185 @@
-#leo {
-    &.container {
-        display: flex;
-        flex-wrap: nowrap;
-        gap: 20px;
-        max-width: 1440px;
-        width: 100%;
-        margin: 0 auto;
 
-        .filter {
-            display: flex;
-            flex-direction: column;
-            gap: 8px;
 
-            &-title {
-                font-size: 14px;
-                line-height: 20px;
-                color: #555;
-                font-weight: 400;
 
-                span {
-                    font-weight: 700;
+@mixin flex {
+    display: flex;
+    justify-content: center;
+    gap: 19px;
+}
+
+@mixin text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+}
+
+@mixin column {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+
+}
+
+@mixin width {
+    width: 100%
+}
+
+
+
+section {
+
+
+    .conteiner {
+        @include flex;
+        margin-top: 20px;
+
+        .box {
+            @include column;
+
+
+            .box_1 {
+                max-width: 390px;
+
+
+                picture {
+
+                    img {
+                        width: 100%;
+
+                    }
                 }
+
             }
 
-            &-buttons {
-                display: flex;
-                flex-wrap: wrap;
-                gap: 8px;
+            p {
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: x-small;
 
-                button {
-                    background-color: transparent;
-                    outline: none;
-                    padding: 5px 10px;
-                    color: black;
-                    border: 1px dashed #adb1b8;
 
-                    &.disable {
-                        color: #CCC;
-                    }
-
-                    &.active {
-                        border: 1px solid #E47911;
-                    }
-
-                }
             }
         }
+
+
+            .box_2 {
+
+                @include flex;
+
+
+                picture {
+                    max-width: 85px;
+
+                    img {
+                        @include width;
+                    }
+                }
+            }
+                .block{
+                    @include column;
+                   
+
+                    .block_1{
+                        max-width: 455px;
+                    width: 100%;
+
+                        h1{
+                            font-size:larger;
+                            font-family:Arial, Helvetica, sans-serif;
+
+                        }
+                        a{
+                            text-decoration: none;
+                            color: rgb(92, 170, 215);
+                            font-size:smaller;
+                         
+                        }
+                    }
+                    
+                    .block_2{
+                        display: flex;
+                        justify-content: flex-start;
+
+                        link{
+                           
+                            span{
+                                .checked {
+                                    background-color: orange;
+                                    color: orange;
+                                
+                            }
+                        }
+
+                    }
+
+
+                }
+           
+
+
+            }
+
+
+
+
+
+            }
+        }
+
+.amazon {
+  margin-top: 100px;
+
+  .container {
+    height: 1000px;
+    min-width: 996px;
+
+    .left_block {
+      padding-left: 20px;
+      gap: 10px;
+      display: flex;
+      position: -webkit-sticky;
+      position: sticky;
+      align-items: flex-start;
+      width: 642px;
+      top: 4px;
+
+      .left_img {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      .right_img_div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+
+        .right_img {
+          width: 596px;
+        }
+
+
+        .svg {
+          background-image: url("https://m.media-amazon.com/images/G/01/share-icons/share-std.svg");
+          border: 1px solid #ddd;
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          position: absolute;
+          top: 10px;
+          right: 10px;
+          background-color: #fff;
+          height: 24px;
+          width: 24px;
+          cursor: pointer;
+
+        }
+      }
     }
+  }
 }
+
 
 #Tengiz {
     .amazon {
@@ -97,3 +229,5 @@
         width: 450px;
     }
 }
+
+
