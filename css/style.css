@@ -37,4 +37,41 @@
 }
 #leo.container .filter-buttons button.active {
   border: 1px solid #E47911;
+}
+
+#Tengiz .amazon {
+  margin-top: 50px;
+  display: flex;
+}
+#Tengiz .amazon .list {
+  display: flex;
+  margin-left: 20px;
+}
+#Tengiz .amazon .list li {
+  list-style-type: none;
+}
+#Tengiz .amazon .list .button {
+  margin-bottom: 10px;
+  border: 1px solid black;
+  border-radius: 10%;
+}
+#Tengiz .amazon .list .li_button {
+  width: 40px;
+  height: 40px;
+}
+#Tengiz .big_picture {
+  margin-left: 10px;
+  position: relative;
+}
+#Tengiz .big_picture .picture {
+  width: 550px;
+  height: 550px;
+}
+#Tengiz .big_picture .share {
+  position: absolute;
+  background-color: white;
+  margin-top: 10px;
+  width: 30px;
+  border-radius: 50%;
+  left: 500px;
 }/*# sourceMappingURL=style.css.map */

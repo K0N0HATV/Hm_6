@@ -1,38 +1,45 @@
-#leo{
-    &.container{
+#leo {
+    &.container {
         display: flex;
         flex-wrap: nowrap;
         gap: 20px;
         max-width: 1440px;
         width: 100%;
         margin: 0 auto;
-        .filter{
+
+        .filter {
             display: flex;
             flex-direction: column;
             gap: 8px;
-            &-title{
+
+            &-title {
                 font-size: 14px;
                 line-height: 20px;
                 color: #555;
                 font-weight: 400;
-                span{
+
+                span {
                     font-weight: 700;
                 }
             }
-            &-buttons{
+
+            &-buttons {
                 display: flex;
                 flex-wrap: wrap;
                 gap: 8px;
-                button{
+
+                button {
                     background-color: transparent;
                     outline: none;
                     padding: 5px 10px;
                     color: black;
                     border: 1px dashed #adb1b8;
-                    &.disable{
+
+                    &.disable {
                         color: #CCC;
                     }
-                    &.active{
+
+                    &.active {
                         border: 1px solid #E47911;
                     }
 
@@ -42,4 +49,47 @@
     }
 }
 
+#Tengiz {
+    .amazon {
+        margin-top: 50px;
+        display: flex;
 
+        .list {
+            display: flex;
+            margin-left: 20px;
+
+            li {
+                list-style-type: none;
+            }
+
+            .button {
+                margin-bottom: 10px;
+                border: 1px solid black;
+                border-radius: 10%;
+            }
+
+            .li_button {
+                width: 40px;
+                height: 40px;
+            }
+
+        }
+
+    }
+    .big_picture {
+        margin-left: 10px;
+        position: relative;
+        .picture {
+        width: 550px;
+        height: 550px;}
+        .share {
+            position: absolute;
+            background-color: white;
+            margin-top: 10px;
+            width: 30px;
+            border-radius: 50%;
+
+            left: 500px;
+        }
+    }
+}
