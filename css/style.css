@@ -150,8 +150,10 @@ section .conteiner .block .block_2 link span .checked {
   margin-top: 200px;
 }
 .Zlo_Off .container {
+  gap: 40px;
   height: 1000px;
   min-width: 996px;
+  display: flex;
 }
 .Zlo_Off .container .left_block {
   padding-left: 50px;
