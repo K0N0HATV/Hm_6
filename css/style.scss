@@ -1,4 +1,6 @@
 
+
+
 @mixin flex {
     display: flex;
     justify-content: center;
@@ -106,6 +108,7 @@ section {
                                 
                             }
                         }
+
                     }
 
 
@@ -176,4 +179,55 @@ section {
     }
   }
 }
+
+
+#Tengiz {
+    .amazon {
+        margin-top: 50px;
+        display: flex;
+
+        .list {
+            display: flex;
+            margin-left: 20px;
+
+            li {
+                list-style-type: none;
+            }
+
+            .button {
+                margin-bottom: 10px;
+                border: 1px solid black;
+                border-radius: 10%;
+            }
+
+            .li_button {
+                width: 40px;
+                height: 40px;
+            }
+
+        }
+
+    }
+    .big_picture {
+        margin-left: 10px;
+        position: relative;
+        .picture {
+        width: 700px;
+        height: 550px;}
+        .share {
+            position: absolute;
+            background-color: white;
+            margin-top: 10px;
+            width: 30px;
+            border-radius: 50%;
+
+            left: 94%;
+        }
+    }
+    .text {
+        margin-left: 20px;
+        width: 450px;
+    }
+}
+
 
