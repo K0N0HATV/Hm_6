@@ -187,4 +187,68 @@ section .conteiner .block .block_2 link span .checked {
   height: 24px;
   width: 24px;
   cursor: pointer;
+}
+.Zlo_Off .container .right_block .checked {
+  color: orange;
+}
+.Zlo_Off .container .right_block .mane {
+  display: flex;
+}
+.Zlo_Off .container .right_block .befor::before {
+  content: "|";
+}
+.Zlo_Off .container .right_block .main {
+  display: flex;
+  gap: 10px;
+}
+.Zlo_Off .container .right_block .p1 {
+  background-color: #232F3E;
+  border-color: #232F3E;
+  display: inline-block;
+  min-width: 80px;
+  color: #fff;
+}
+.Zlo_Off .container .right_block .main1 {
+  color: #F69931;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.Zlo_Off .container .right_block .a_img {
+  color: #168342 !important;
+  text-decoration: none !important;
+}
+.Zlo_Off .container .right_block .img1 {
+  width: 26px;
+  height: 18px;
+}
+.Zlo_Off .container .right_block .p2 {
+  color: #555;
+  font-weight: 400;
+}
+.Zlo_Off .container .right_block .spantkl {
+  font-weight: 700;
+  color: black;
+  padding-left: 3px;
+}
+.Zlo_Off .container .right_block .disable {
+  padding: 5px 10px 5px 11px;
+  color: #565959;
+  background-color: transparent;
+  border: 1px dashed;
+  font-size: 13px;
+  cursor: pointer;
+}
+.Zlo_Off .container .right_block .disable:hover {
+  color: black;
+  font-weight: 700;
+}
+.Zlo_Off .container .right_block .active {
+  cursor: pointer;
+  padding: 5px 10px 5px 11px;
+  background-color: #f3eee7;
+  border: 1px solid orange;
+  font-weight: 700;
+}
+.Zlo_Off .container .right_block td {
+  width: 100px;
 }/*# sourceMappingURL=style.css.map */
