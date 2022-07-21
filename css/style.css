@@ -163,6 +163,7 @@ section .block .border {
   margin-top: 100px;
 }
 .amazon_2 .container {
+  display: flex;
   height: 1000px;
   min-width: 996px;
 }
@@ -173,7 +174,6 @@ section .block .border {
   position: -webkit-sticky;
   position: sticky;
   align-items: flex-start;
-  width: 642px;
   top: 4px;
 }
 .amazon_2 .container .left_block .left_img {
@@ -183,6 +183,7 @@ section .block .border {
 }
 .amazon_2 .container .left_block .left_img .list_img {
   border: 1px solid gray;
+  cursor: pointer;
 }
 .amazon_2 .container .left_block .left_img .list_img:hover {
   box-shadow: 2px 2px 2px orangered;
@@ -211,76 +212,21 @@ section .block .border {
   justify-content: center;
   position: absolute;
   top: 15px;
-  right: -10px;
+  right: 30px;
   background-color: #fff;
   background-repeat: no-repeat;
   height: 26px;
   width: 26px;
   cursor: pointer;
 }
-.amazon_2 .container .svg {
-  background-image: url("https://m.media-amazon.com/images/G/01/share-icons/share-std.svg");
-  border: 1px solid #ddd;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  background-color: #fff;
-  height: 24px;
-  width: 24px;
-  cursor: pointer;
-}
 
-.amazon {
-  margin-top: 100px;
+.content-block {
+  margin-left: 20px;
 }
-.amazon .container {
-  height: 1000px;
-  min-width: 996px;
+.content-block .content-block-p-a p {
+  font-size: 24px;
+  line-height: 32px;
 }
-.amazon .container .left_block {
-  padding-left: 20px;
-  gap: 10px;
-  display: flex;
-  position: -webkit-sticky;
-  position: sticky;
-  align-items: flex-start;
-  width: 642px;
-  top: 4px;
-}
-.amazon .container .left_block .left_img {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-.amazon .container .left_block .right_img_div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 40px;
-}
-.amazon .container .left_block .right_img_div .right_img {
-  width: 596px;
-}
-.amazon .container .left_block .right_img_div .svg {
-  background-image: url("https://m.media-amazon.com/images/G/01/share-icons/share-std.svg");
-  border: 1px solid #ddd;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  background-color: #fff;
-  height: 24px;
-  width: 24px;
-  cursor: pointer;
-}
-
 #Tengiz .amazon {
   margin-top: 50px;
   display: flex;
