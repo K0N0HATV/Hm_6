@@ -133,14 +133,21 @@ section .conteiner .block .block_5 .border {
   background-color: white;
 }
 
-.amazon {
+
+section .conteiner .block .block_2 link span .checked {
+  background-color: orange;
+  color: orange;
+}
+
+
+.amazon_2 {
   margin-top: 100px;
 }
-.amazon .container {
+.amazon_2 .container {
   height: 1000px;
   min-width: 996px;
 }
-.amazon .container .left_block {
+.amazon_2 .container .left_block {
   padding-left: 20px;
   gap: 10px;
   display: flex;
@@ -150,21 +157,21 @@ section .conteiner .block .block_5 .border {
   width: 642px;
   top: 4px;
 }
-.amazon .container .left_block .left_img {
+.amazon_2 .container .left_block .left_img {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
-.amazon .container .left_block .right_img_div {
+.amazon_2 .container .left_block .right_img_div {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 40px;
 }
-.amazon .container .left_block .right_img_div .right_img {
+.amazon_2 .container .left_block .right_img_div .right_img {
   width: 596px;
 }
-.amazon .container .left_block .right_img_div .svg {
+.amazon_2 .container .left_block .right_img_div .svg {
   background-image: url("https://m.media-amazon.com/images/G/01/share-icons/share-std.svg");
   border: 1px solid #ddd;
   border-radius: 50%;
@@ -178,4 +185,91 @@ section .conteiner .block .block_5 .border {
   height: 24px;
   width: 24px;
   cursor: pointer;
+
+
+}
+
+#Tengiz .amazon {
+  margin-top: 50px;
+  display: flex;
+}
+#Tengiz .amazon .list {
+  display: flex;
+  margin-left: 20px;
+}
+#Tengiz .amazon .list li {
+  list-style-type: none;
+}
+#Tengiz .amazon .list .button {
+  margin-bottom: 10px;
+  border: 1px solid black;
+  border-radius: 10%;
+}
+#Tengiz .amazon .list .li_button {
+  width: 40px;
+  height: 40px;
+}
+#Tengiz .big_picture {
+  margin-left: 10px;
+  position: relative;
+}
+#Tengiz .big_picture .picture {
+  width: 700px;
+  height: 550px;
+}
+#Tengiz .big_picture .share {
+  position: absolute;
+  background-color: white;
+  margin-top: 10px;
+  width: 30px;
+  border-radius: 50%;
+  left: 94%;
+}
+#Tengiz .text {
+  margin-left: 20px;
+  width: 450px;
+}
+
+.Zlo_Off {
+  margin-top: 200px;
+}
+.Zlo_Off .container {
+  gap: 40px;
+  height: 1000px;
+  min-width: 996px;
+  display: flex;
+}
+.Zlo_Off .container .left_block {
+  padding-left: 50px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: -webkit-sticky;
+  position: sticky;
+  width: 642px;
+  top: 4px;
+}
+.Zlo_Off .container .left_block .top p {
+  text-align: center;
+  gap: 40px;
+}
+.Zlo_Off .container .left_block .Bottom_img .img {
+  width: 85px;
+}
+.Zlo_Off .container .left_block .btn {
+  background-image: url("https://m.media-amazon.com/images/G/01/share-icons/share-std.svg");
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #fff;
+  height: 24px;
+  width: 24px;
+  cursor: pointer;
+
 }/*# sourceMappingURL=style.css.map */
