@@ -235,8 +235,10 @@ section {
     margin-top: 200px;
   
     .container {
+    gap: 40px;
       height: 1000px;
       min-width: 996px;
+      display: flex;
   
       .left_block {
         padding-left: 50px;
@@ -248,9 +250,11 @@ section {
         position: sticky;
         width: 642px;
         top: 4px;
-        .top p {
-        text-align: center;
-        gap: 40px;}
+        .top {
+            p {
+            text-align: center;
+            gap: 40px;}
+        }
 
         .Bottom_img {
         .img {
@@ -274,7 +278,9 @@ section {
           }
         }
 
-        
+        .right_block {
+            
+        }
     }
 }
 
