@@ -249,6 +249,26 @@ section .conteiner .block .block_2 link span .checked {
   border: 1px solid orange;
   font-weight: 700;
 }
-.Zlo_Off .container .right_block td {
+.Zlo_Off .container .right_block .td1 {
   width: 100px;
+  font-weight: 700;
+}
+.Zlo_Off .container .right_block .td2 {
+  width: 200px;
+  color: #584b39;
+}
+.Zlo_Off .container .right_block ul {
+  margin-top: 10px;
+  padding-left: 10px;
+  width: 500px;
+}
+.Zlo_Off .container .right_block li {
+  color: #584b39;
+}
+.Zlo_Off .container .right_block .a3 {
+  color: rgb(96, 96, 214);
+  text-decoration: none;
+}
+.Zlo_Off .container .right_block .span_prize {
+  color: #cf8229;
 }/*# sourceMappingURL=style.css.map */

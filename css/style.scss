@@ -334,7 +334,23 @@ section {
             border: 1px solid orange;
             font-weight: 700;
             }
-            td {width: 100px;}
+        .td1 {
+        width: 100px;
+        font-weight: 700;}
+        .td2 {
+        width: 200px;
+        color: #584b39;}
+        ul {
+        margin-top: 10px;
+        padding-left: 10px;
+        width: 500px;}
+        li {
+        color: #584b39;}
+        .a3 {color: rgb(96, 96, 214);
+        text-decoration: none;
+        }
+        .span_prize {color: #cf8229;
+        }
 
         }
     }
