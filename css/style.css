@@ -174,6 +174,7 @@ section .block .border {
   position: -webkit-sticky;
   position: sticky;
   align-items: flex-start;
+  height: 400px;
   top: 4px;
 }
 .amazon_2 .container .left_block .left_img {
@@ -227,6 +228,56 @@ section .block .border {
   font-size: 24px;
   line-height: 32px;
 }
+.content-block .content-block-p-a .content-block-a {
+  text-decoration: none;
+  color: #007185;
+}
+.content-block .content-block-p-a .content-block-a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: #C7511F;
+  outline: 0;
+}
+.content-block .star {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+.content-block .star .after-star::after {
+  content: "";
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  border: solid black;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 2.4px;
+  margin-left: 4px;
+  margin-bottom: 2px;
+}
+.content-block .star .checked {
+  color: orange;
+}
+.content-block .star .e--af::before {
+  content: "|";
+  padding-left: 10px;
+  color: gray;
+}
+.content-block .star .content-block-a {
+  text-decoration: none;
+  color: #007185;
+  margin-left: 10px;
+}
+.content-block .star .content-block-a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: #C7511F;
+  outline: 0;
+}
+
+.content-all {
+  width: 433px;
+}
+
 #Tengiz .amazon {
   margin-top: 50px;
   display: flex;
