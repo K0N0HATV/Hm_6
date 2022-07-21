@@ -1,0 +1,54 @@
+.amazon {
+  margin-top: 100px;
+
+  .container {
+    height: 1000px;
+    min-width: 996px;
+
+    .left_block {
+      padding-left: 20px;
+      gap: 10px;
+      display: flex;
+      position: -webkit-sticky;
+      position: sticky;
+      align-items: flex-start;
+      width: 642px;
+      top: 4px;
+
+      .left_img {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      .right_img_div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+
+        .right_img {
+          width: 596px;
+        }
+
+
+        .svg {
+          background-image: url("https://m.media-amazon.com/images/G/01/share-icons/share-std.svg");
+          border: 1px solid #ddd;
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          position: absolute;
+          top: 10px;
+          right: 10px;
+          background-color: #fff;
+          height: 24px;
+          width: 24px;
+          cursor: pointer;
+
+        }
+      }
+    }
+  }
+}
