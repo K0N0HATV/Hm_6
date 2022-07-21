@@ -443,6 +443,82 @@ section {
                 }
             }
 
+ 
+        .right_block {
+            .checked {
+                color: orange;
+            }
+            .mane {
+            display: flex;}
+            .befor {
+            &::before {content:"|";}
+            } 
+            .main {
+            display: flex;
+            gap: 10px;
+            }
+            .p1 {
+            background-color: #232F3E;
+            border-color: #232F3E;
+            display: inline-block;
+            min-width: 80px;
+            color: #fff;}
+            .main1 {
+            color: #F69931;
+            padding-left: 5px;
+            padding-right: 5px;
+            }
+            .a_img {
+            color: #168342!important;
+            text-decoration: none!important;}
+            .img1 {
+            width: 26px;
+            height: 18px;
+            }
+        .p2 {
+            color: #555;
+            font-weight: 400;}
+            .spantkl {font-weight: 700;
+                color: black;
+                padding-left: 3px;
+            }
+            .disable {
+            padding: 5px 10px 5px 11px;
+            color: #565959;
+            background-color: transparent;
+            border: 1px dashed;
+            font-size: 13px;
+            cursor: pointer;
+        &:hover {
+        color: black;
+        font-weight: 700;
+        }}
+            .active {
+            cursor: pointer;
+            padding: 5px 10px 5px 11px;
+            background-color: #f3eee7;
+            border: 1px solid orange;
+            font-weight: 700;
+            }
+        .td1 {
+        width: 100px;
+        font-weight: 700;}
+        .td2 {
+        width: 200px;
+        color: #584b39;}
+        ul {
+        margin-top: 10px;
+        padding-left: 10px;
+        width: 500px;}
+        li {
+        color: #584b39;}
+        .a3 {color: rgb(96, 96, 214);
+        text-decoration: none;
+        }
+        .span_prize {color: #cf8229;
+        }
+
+
             .Bottom_img {
                 .img {
                     width: 85px;
@@ -464,6 +540,7 @@ section {
                 width: 24px;
                 cursor: pointer;
             }
+
         }
 
         .right_block {}
