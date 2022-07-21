@@ -51,12 +51,94 @@ section .conteiner .block .block_1 a {
 }
 section .conteiner .block .block_2 {
   display: flex;
-  justify-content: flex-start;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
 }
+section .conteiner .block .block_2 .star {
+  display: flex;
+  justify-content: left;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+}
+section .conteiner .block .block_2 .star .checked {
+  text-decoration: none;
+  color: orange;
+}
+section .conteiner .block .block_2 .star a {
+  text-decoration: none;
+  color: rgb(92, 170, 215);
+  font-size: smaller;
+}
+section .conteiner .block .block_3 {
+  display: flex;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+}
+section .conteiner .block .block_3 p {
+  background-color: black;
+  color: white;
+  font-size: small;
+}
+section .conteiner .block .block_3 p span {
+  color: orange;
+  font-size: small;
+}
+section .conteiner .block .block_3 .p {
+  background-color: white;
+  font-size: small;
+  color: black;
+}
+section .conteiner .block .block_4 {
+  display: flex;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+}
+section .conteiner .block .block_4 svg {
+  text-decoration: none;
+  color: greenyellow;
+}
+section .conteiner .block .block_4 a {
+  text-decoration: none;
+  color: greenyellow;
+}
+section .conteiner .block .block_5 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+section .conteiner .block .block_5 p {
+  font-size: small;
+  color: lightgrey;
+}
+section .conteiner .block .block_5 p span {
+  font-weight: bolder;
+  color: black;
+}
+section .conteiner .block .block_5 button {
+  color: lightgrey;
+  border-style: dashed;
+  border-width: 1px;
+  padding: 5px;
+  background-color: white;
+}
+section .conteiner .block .block_5 .button_5 {
+  color: black;
+  border-style: double;
+  border-color: orangered;
+  background-color: rgb(245, 229, 200);
+}
+section .conteiner .block .block_5 .border {
+  border: 1px solid lightgrey;
+  color: black;
+  background-color: white;
+}
+
+
 section .conteiner .block .block_2 link span .checked {
   background-color: orange;
   color: orange;
 }
+
 
 .amazon_2 {
   margin-top: 100px;
@@ -116,6 +198,8 @@ section .conteiner .block .block_2 link span .checked {
   height: 26px;
   width: 26px;
   cursor: pointer;
+
+
 }
 
 #Tengiz .amazon {
@@ -200,4 +284,5 @@ section .conteiner .block .block_2 link span .checked {
   height: 24px;
   width: 24px;
   cursor: pointer;
+
 }/*# sourceMappingURL=style.css.map */
