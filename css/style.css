@@ -86,6 +86,13 @@
 #Tengiz .text h2 {
   font-weight: 300;
 }
+#Tengiz .text .link {
+  font-size: 14px;
+  text-decoration: none;
+}
+#Tengiz .text .link:hover {
+  text-decoration: underline;
+}
 #Tengiz .filter {
   margin-top: 10px;
   margin-left: 20px;
@@ -133,6 +140,18 @@
   text-align: left;
   font-size: 12px;
 }
+#Tengiz .delivery .Sell {
+  align-content: center;
+  margin-top: 50px;
+}
+#Tengiz .delivery .Sell p {
+  font-size: 12px;
+}
+#Tengiz .delivery .Sell button {
+  margin-top: 0px;
+  color: black;
+  border-radius: 10px;
+}
 #Tengiz button {
   margin-top: 10px;
   background-color: transparent;
@@ -179,5 +198,35 @@
   width: 300px;
 }
 #Tengiz .About_Item li {
+  font-size: 14px;
+}
+#Tengiz .link1 {
+  font-size: 12px;
+  text-decoration: none;
+}
+#Tengiz .link1:hover {
+  text-decoration: underline;
+}
+#Tengiz .Renewed {
+  margin-top: 20px;
+  width: 300px;
+}
+#Tengiz .Renewed .Note {
+  margin-top: 30px;
+  font-size: 14px;
+}
+#Tengiz .Renewed .Renewed_foto {
+  margin-top: 20px;
+  display: flex;
+  width: 300px;
+  gap: 10px;
+}
+#Tengiz .Renewed .Renewed_foto img {
+  width: 100px;
+}
+#Tengiz .Renewed .Renewed_foto .Renewed_h3 {
+  font-size: 16px;
+}
+#Tengiz .Renewed .Renewed_foto p {
   font-size: 14px;
 }/*# sourceMappingURL=style.css.map */

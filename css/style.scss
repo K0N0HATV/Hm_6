@@ -102,17 +102,29 @@
     .text {
         margin-left: 20px;
         width: 300px;
+
         h2 {
             font-weight: 300;
         }
-        
+
+        .link {
+            font-size: 14px;
+            text-decoration: none;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
     }
+
     .filter {
         margin-top: 10px;
         margin-left: 20px;
+
         // display: flex;
         .filter_p {
             margin-top: 10px;
+
             span {
                 font-weight: 700;
             }
@@ -132,13 +144,14 @@
             margin-left: 20px;
             margin-top: 10px;
             // align-content: center;
-            
+
 
 
             a {
                 font-size: 12px;
                 text-decoration: none;
             }
+
             .Delivery_Button {
                 margin-top: 10px;
                 width: 190px;
@@ -148,8 +161,9 @@
                 box-shadow: 10px grey;
                 padding: 5px 0px 5px 0px;
                 font-size: 12px;
-              
+
             }
+
             .Add_Button {
                 margin-top: 20px;
                 margin-bottom: 20px;
@@ -164,8 +178,25 @@
 
 
             }
+
+        }
+
+        .Sell {
+            align-content: center;
+            margin-top: 50px;
+
+            p {
+                font-size: 12px;
+            }
+            button {
+                margin-top: 0px;
+                color: black;
+                border-radius: 10px;
+            }
+
         }
     }
+
     button {
         margin-top: 10px;
         background-color: transparent;
@@ -177,48 +208,97 @@
         cursor: pointer;
         font-family: Arial, Helvetica, sans-serif;
         color: #CCC;
-         &:hover {
+
+        &:hover {
             color: #CCC;
             font-weight: 600;
-         }
+        }
 
         // display: flex;
         // gap: 8px;       
-                
+
 
         &.disable {
             color: #CCC;
             border: dashed;
+
             &:hover {
                 color: #CCC;
                 font-weight: 600;
-             }
+            }
         }
 
         &.active {
             border: 1px solid bisque;
             background-color: rgb(250, 240, 221);
+
             &:hover {
                 color: #CCC;
                 font-weight: 600;
-             }
+            }
         }
 
     }
+
     .Description {
         margin-top: 20px;
         margin-left: 20px;
+
         .table_description {
             text-align: left;
             font-size: 14px;
         }
     }
+
     .About_Item {
         margin-top: 20px;
         margin-left: 20px;
         width: 300px;
-        li{
+
+        li {
             font-size: 14px;
+        }
+    }
+
+    .link1 {
+        font-size: 12px;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+
+    }
+
+    .Renewed {
+        margin-top: 20px;
+        width: 300px;
+
+        .Note {
+            margin-top: 30px;
+            font-size: 14px;
+
+        }
+
+        .Renewed_foto {
+            margin-top: 20px;
+            display: flex;
+            width: 300px;
+            gap: 10px;
+
+            img {
+                width: 100px;
+            }
+
+            .Renewed_h3 {
+                font-size: 16px;
+
+            }
+
+            p {
+
+                font-size: 14px;
+            }
         }
     }
 }
