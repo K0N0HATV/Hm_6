@@ -620,6 +620,12 @@ section .conteiner .part_3 .part_3_3 .price div .a_img {
 .Zlo_Off .container .right_block .div4 {
   display: flex;
 }
+.Zlo_Off .container .right_block .div4 p {
+  width: 450px;
+}
+.Zlo_Off .container .right_block .div4 .div4_1 {
+  padding-left: 5px;
+}
 .Zlo_Off .container .right_block .Bottom_img {
   position: relative;
 }
