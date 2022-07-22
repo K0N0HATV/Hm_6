@@ -75,57 +75,6 @@ section {
 
         }
 
-
-
-
-
-
-            }
-
-
-
-        }
-
-    
-
-    .block {
-        @include column;
-
-
-        .block_1 {
-            max-width: 455px;
-            width: 100%;
-
-            h1 {
-                font-size: larger;
-                font-family: Arial, Helvetica, sans-serif;
-
-            }
-
-            a {
-                text-decoration: none;
-                color: rgb(92, 170, 215);
-                font-size: smaller;
-
-            }
-        }
-
-        .block_2 {
-            display: flex;
-            column-gap: 10px;
-
-
-            .star {
-                display: flex;
-                justify-content: left;
-                column-gap: 10px;
-
-
-                .checked {
-                    text-decoration: none;
-                    color: orange;
-
-
         .block {
             @include column;
             max-width: 500px;
@@ -141,38 +90,15 @@ section {
                     font-size: x-large;
                     font-family: Arial, Helvetica, sans-serif;
 
-
                 }
 
                 a {
                     text-decoration: none;
                     color: rgb(92, 170, 215);
                     font-size: smaller;
-                }
 
-            }
-        }
-
-        .block_3 {
-            display: flex;
-            column-gap: 10px;
-
-            p {
-                background-color: black;
-                color: white;
-                font-size: small;
-
-                span {
-                    color: orange;
-                    font-size: small;
                 }
             }
-
-
-            .p {
-                background-color: white;
-                font-size: small;
-                color: black;
 
             .block_2 {
                 display: flex;
@@ -180,38 +106,26 @@ section {
 
 
 
-            }
-        }
+                .star {
+                    display: flex;
+                    justify-content: left;
+                    column-gap: 10px;
 
-        .block_4 {
-            @include column-gap;
 
+                    .checked {
+                        text-decoration: none;
+                        color: orange;
 
-            svg {
-                text-decoration: none;
-                color: greenyellow;
-            }
+                    }
 
-            a {
-                text-decoration: none;
-                color: greenyellow;
-            }
+                    a {
+                        text-decoration: none;
+                        color: rgb(92, 170, 215);
+                        font-size: smaller;
+                    }
 
-        }
-
-        .block_5 {
-            @include column;
-
-            p {
-                font-size: small;
-                color: lightgrey;
-
-                span {
-                    font-weight: bolder;
-                    color: black;
                 }
             }
-
 
             .block_3 {
                 display: flex;
@@ -228,20 +142,6 @@ section {
 
                     span {
                         color: orange;
-
-
-
-                .block_3 {
-                    display: flex;
-                    column-gap: 10px;
-                
-                   
-                   
-                
-                    p{
-                        background-color: black;
-                        color:white;
-
                         font-size: small;
 
 
@@ -255,53 +155,13 @@ section {
 
 
 
-
                 }
-
-            button {
-                color: lightgrey;
-                border-style: dashed;
-                border-width: 1px;
-                padding: 5px;
-                background-color: white;
-
-
-
-
             }
 
             .block_4 {
                 @include column-gap;
                 margin-bottom: 10px;
                 border-bottom: 1px solid lightgrey;
-
-
-
-
-
-
-        }
-
-        .button_5 {
-            color: black;
-            border-style: double;
-            border-color: orangered;
-            background-color: rgb(245, 229, 200);
-
-        }
-
-        .border {
-            border: 1px solid lightgrey;
-            color: black;
-            background-color: white;
-        }
-    }
-
-
-
-
-}
-
 
 
 
@@ -395,22 +255,15 @@ section {
                         font-size: medium;
                     }
                 }
-
                 .p_6_2 {
                     color: black;
                     font-size: medium;
                 }
+<<<<<<< HEAD
+=======
 
-
+>>>>>>> parent of ae421ea (Merge branch 'main' into Irina_M)
             }
-
-
-                    a{
-                        margin-top: 20px;
-                        margin-bottom: 20px;
-                        font-size: small;
-                        color: blue;
-
 
             .block_7 {
                 display: flex;
@@ -484,7 +337,6 @@ section {
                             color: red;
                         }
 
-
                         .checked {
                             text-decoration: none;
                             color: orange;
@@ -498,18 +350,9 @@ section {
                         }
 
                     }
-
-
-
-
                 }
 
-
                 .block_8_2 {
-
-
-                .block_8_2{
-
                     margin-top: 20px;
 
                     p {
@@ -735,7 +578,6 @@ section {
     margin-top: 100px;
 
     .container {
-        display: flex;
         height: 1000px;
         min-width: 996px;
 
@@ -746,7 +588,7 @@ section {
             position: -webkit-sticky;
             position: sticky;
             align-items: flex-start;
-            height: 400px;
+            width: 642px;
             top: 4px;
 
             .left_img {
@@ -756,10 +598,6 @@ section {
 
                 .list_img {
                     border: 1px solid gray;
-
-
-                    cursor: pointer;
-
 
                     &:hover {
                         box-shadow: 2px 2px 2px orangered;
@@ -784,6 +622,7 @@ section {
                     width: 596px;
                 }
 
+
                 .svg {
                     background-image: url("https://m.media-amazon.com/images/G/01/share-icons/share-std.svg");
                     border: 1px solid #ddd;
@@ -793,7 +632,7 @@ section {
                     justify-content: center;
                     position: absolute;
                     top: 15px;
-                    right: 30px;
+                    right: -10px;
                     background-color: #fff;
                     background-repeat: no-repeat;
                     height: 26px;
@@ -806,110 +645,6 @@ section {
 }
 
 
-
-.content-block {
-    margin-left: 20px;
-
-    .content-block-p-a {
-
-        p {
-            font-size: 24px;
-            line-height: 32px;
-        }
-
-        .content-block-a {
-            text-decoration: none;
-            color: #007185;
-
-            &:hover {
-                text-decoration: underline;
-                cursor: pointer;
-                color: #C7511F;
-                outline: 0;
-            }
-        }
-    }
-
-    .star {
-        display: flex;
-        align-items: center;
-        gap: 3px;
-
-        .after-star {
-            &::after {
-                content: "";
-                transform: rotate(45deg);
-                -webkit-transform: rotate(45deg);
-                border: solid black;
-                border-width: 0 2px 2px 0;
-                display: inline-block;
-                padding: 2.4px;
-                margin-left: 4px;
-                margin-bottom: 2px;
-            }
-        }
-
-        .checked {
-            color: orange;
-
-        }
-
-        .e--af {
-            &::before {
-                content: "|";
-                padding-left: 10px;
-                color: gray;
-
-            }
-        }
-
-        .content-block-a {
-            text-decoration: none;
-            color: #007185;
-            margin-left: 10px;
-
-            &:hover {
-                text-decoration: underline;
-                cursor: pointer;
-                color: #C7511F;
-                outline: 0;
-            }
-        }
-    }
-}
-
-
-.content-all {
-    width: 433px;
-}
-
-.choice {
-    p {
-        width: 132.3px;
-        padding-left: 8px;
-        padding-right: 3px;
-        height: 22px;
-        background-color: #232F3E;
-        border-color: #232F3E;
-        display: inline-flex;
-        color: white;
-
-        .span-orange {
-            color: #F69931;
-            padding-left: 8px;
-            padding-right: 8px;
-
-        }
-
-        .span {
-            width: 0;
-            height: 0;
-            border-right: 10px solid transparent;
-            border-top: 22px solid;
-            color: #232F3E;
-        }
-    }
-}
 
 
 
@@ -1142,11 +877,4 @@ section {
         }
 
     }
-
 }
-
-
-}
-}
-    }
-
