@@ -382,6 +382,9 @@ section .conteiner .block .block_8 .block_8_2 p span {
 .Zlo_Off .container .right_block .checked {
   color: orange;
 }
+.right_block {
+margin-left: 20px;
+}
 .Zlo_Off .container .right_block .mane {
   display: flex;
 }
