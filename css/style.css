@@ -1,3 +1,4 @@
+@charset "UTF-8";
 #leo.container {
   display: flex;
   flex-wrap: nowrap;
@@ -68,50 +69,242 @@
   width: 40px;
   height: 40px;
 }
-#Tengiz .amazon .big_picture {
+#Tengiz .amazon .block1 .big_picture {
   margin-left: 10px;
   position: relative;
   position: -webkit-sticky;
   position: sticky;
 }
-#Tengiz .amazon .big_picture .picture {
+#Tengiz .amazon .block1 .big_picture .picture {
   width: 560px;
   height: 550px;
 }
-#Tengiz .amazon .big_picture .share {
+#Tengiz .amazon .block1 .big_picture .share {
   position: absolute;
   background-color: white;
   margin-top: 10px;
-  width: 30px;
+  width: 26px;
+  height: 26px;
+  padding: 2px;
   border-radius: 50%;
   left: 93%;
 }
-#Tengiz .text {
-  margin-left: 20px;
-  width: 300px;
-}
-#Tengiz .text h2 {
-  font-weight: 300;
-}
-#Tengiz .text .link {
+#Tengiz .amazon .link {
   font-size: 14px;
   text-decoration: none;
 }
-#Tengiz .text .link:hover {
+#Tengiz .amazon .link:hover {
   text-decoration: underline;
 }
-#Tengiz .filter {
-  margin-top: 10px;
+#Tengiz .amazon .block2 {
   margin-left: 20px;
 }
-#Tengiz .filter .filter_p {
+#Tengiz .amazon .block2 .text {
+  width: 300px;
+}
+#Tengiz .amazon .block2 .text h2 {
+  font-weight: 300;
+}
+#Tengiz .amazon .block2 .block3 {
+  display: flex;
+}
+#Tengiz .amazon .block2 .block3 .stars {
+  content: "★";
+  color: #E47911;
+}
+#Tengiz .amazon .block2 .block3 .rotate1 {
+  content: ">";
+  display: inline-block;
+  transform: rotate(90deg);
+  font-size: 10px;
+  margin-right: 10px;
+}
+#Tengiz .amazon .block2 .block3 a {
+  margin-left: 5px;
+  text-decoration: none;
+  font-size: 14px;
+  cursor: pointer;
+  vertical-align: bottom;
+  width: 80px;
+}
+#Tengiz .amazon .block2 .block3 a:hover {
+  text-decoration: underline;
+}
+#Tengiz .amazon .block2 .block3 .answer {
+  margin-left: 5px;
+  text-decoration: none;
+  font-size: 14px;
+  cursor: pointer;
+  vertical-align: bottom;
+  width: 140px;
+}
+#Tengiz .amazon .block2 .block3 .answer:hover {
+  text-decoration: underline;
+}
+#Tengiz .amazon .block2 .block3 .vl {
+  height: 15px;
+  border-left: 1.5px solid black;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+#Tengiz .amazon .block2 .green .block5 {
+  display: flex;
+}
+#Tengiz .amazon .block2 .green img {
+  width: 16px;
+}
+#Tengiz .amazon .block2 .green p {
+  font-size: 12px;
+}
+#Tengiz .amazon .block2 .green .PC {
+  font-size: 14px;
+}
+#Tengiz .amazon .block2 .green .Amazons {
+  color: white;
+  background-color: black;
+  padding-left: 3px;
+}
+#Tengiz .amazon .block2 .green .Choice {
+  color: orange;
+  background-color: black;
+  padding-right: 0px;
+}
+#Tengiz .amazon .block2 .green .triangle {
+  width: 0;
+  height: 0;
+  border-right: 10px solid transparent;
+  border-top: 22px solid;
+  color: #232F3E;
+}
+#Tengiz .amazon .block2 .green a {
+  text-decoration: none;
+  cursor: pointer;
+}
+#Tengiz .amazon .block2 .green .green_span {
+  font-size: 14px;
+  color: green;
+  vertical-align: middle;
+}
+#Tengiz .amazon .block2 .Climate {
   margin-top: 10px;
 }
-#Tengiz .filter .filter_p span {
+#Tengiz .amazon .block2 .filter {
+  margin-top: 10px;
+}
+#Tengiz .amazon .block2 .filter .filter_p {
+  margin-top: 10px;
+}
+#Tengiz .amazon .block2 .filter .filter_p span {
   font-weight: 700;
+}
+#Tengiz .amazon .block2 button {
+  margin-top: 10px;
+  background-color: transparent;
+  outline: none;
+  padding: 5px 8px;
+  color: black;
+  border: 1px solid #adb1b8;
+  font-size: 14px;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #CCC;
+}
+#Tengiz .amazon .block2 button:hover {
+  color: #CCC;
+  font-weight: 600;
+}
+#Tengiz .amazon .block2 button.disable {
+  color: #CCC;
+  border: dashed;
+}
+#Tengiz .amazon .block2 button.disable:hover {
+  color: #CCC;
+  font-weight: 600;
+}
+#Tengiz .amazon .block2 button.active {
+  border: 1px solid bisque;
+  background-color: rgb(250, 240, 221);
+}
+#Tengiz .amazon .block2 button.active:hover {
+  color: #CCC;
+  font-weight: 600;
+}
+#Tengiz .amazon .block2 .Description {
+  margin-top: 20px;
+}
+#Tengiz .amazon .block2 .Description .table_description {
+  text-align: left;
+  font-size: 14px;
+}
+#Tengiz .amazon .block2 .Description .table_description th {
+  width: 80px;
+}
+#Tengiz .amazon .block2 .Description .table_description td {
+  vertical-align: top;
+}
+#Tengiz .amazon .block2 .About_Item {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 300px;
+}
+#Tengiz .amazon .block2 .About_Item h3 {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+#Tengiz .amazon .block2 .About_Item li {
+  font-size: 12px;
+  margin-left: 15px;
+}
+#Tengiz .amazon .block2 .link1 {
+  font-size: 12px;
+  text-decoration: none;
+}
+#Tengiz .amazon .block2 .link1:hover {
+  text-decoration: underline;
+}
+#Tengiz .amazon .block2 .Renewed {
+  margin-top: 20px;
+  width: 300px;
+}
+#Tengiz .amazon .block2 .Renewed .Note {
+  margin-top: 30px;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+#Tengiz .amazon .block2 .Renewed .Renewed_foto {
+  margin-top: 20px;
+  display: flex;
+  width: 300px;
+  gap: 10px;
+}
+#Tengiz .amazon .block2 .Renewed .Renewed_foto .block4 {
+  display: flex;
+}
+#Tengiz .amazon .block2 .Renewed .Renewed_foto .block4 a {
+  margin-left: 3px;
+  font-size: 14px;
+  text-decoration: none;
+  cursor: pointer;
+}
+#Tengiz .amazon .block2 .Renewed .Renewed_foto .block4 a:hover {
+  text-decoration: underline;
+}
+#Tengiz .amazon .block2 .Renewed .Renewed_foto .stars1 {
+  content: "★";
+  color: #E47911;
+}
+#Tengiz .amazon .block2 .Renewed .Renewed_foto img {
+  width: 100px;
+}
+#Tengiz .amazon .block2 .Renewed .Renewed_foto .Renewed_h3 {
+  font-size: 16px;
+}
+#Tengiz .amazon .block2 .Renewed .Renewed_foto p {
+  font-size: 14px;
 }
 #Tengiz .delivery {
   margin-left: 50px;
+  margin-right: 80px;
   width: 230px;
   height: 130px;
   border: 1px solid grey;
@@ -120,6 +313,7 @@
 #Tengiz .delivery .pin {
   margin-left: 20px;
   margin-top: 10px;
+  padding-right: 20px;
 }
 #Tengiz .delivery .pin a {
   font-size: 12px;
@@ -127,29 +321,36 @@
 }
 #Tengiz .delivery .pin .Delivery_Button {
   margin-top: 10px;
-  width: 190px;
+  width: 170px;
   border-radius: 5px;
   background-color: white;
   border: 1px solid grey;
   box-shadow: 10px grey;
   padding: 5px 0px 5px 0px;
   font-size: 12px;
+  cursor: pointer;
+}
+#Tengiz .delivery .pin .Delivery_Button:hover {
+  background-color: #CCC;
 }
 #Tengiz .delivery .pin .Add_Button {
   margin-top: 20px;
   margin-bottom: 20px;
-  width: 190px;
+  width: 167px;
+  height: 24px;
   border-radius: 5px;
-  background-color: transparent;
-  border: 1.5px solid;
+  background-color: rgb(210, 209, 209);
+  border: 1px solid;
   box-shadow: 0 0 5px grey;
-  padding: 5px 0px 5px 5px;
+  padding-left: 3px;
   text-align: left;
   font-size: 12px;
+  cursor: pointer;
 }
 #Tengiz .delivery .Sell {
   align-content: center;
-  margin-top: 50px;
+  margin-top: 40px;
+  margin-left: 80px;
 }
 #Tengiz .delivery .Sell p {
   font-size: 12px;
@@ -157,83 +358,12 @@
 #Tengiz .delivery .Sell button {
   margin-top: 0px;
   color: black;
-  border-radius: 10px;
-}
-#Tengiz button {
-  margin-top: 10px;
-  background-color: transparent;
-  outline: none;
-  padding: 5px 10px;
-  color: black;
-  border: 1px solid #adb1b8;
-  font-size: 14px;
-  cursor: pointer;
-  font-family: Arial, Helvetica, sans-serif;
-  color: #CCC;
-}
-#Tengiz button:hover {
-  color: #CCC;
-  font-weight: 600;
-}
-#Tengiz button.disable {
-  color: #CCC;
-  border: dashed;
-}
-#Tengiz button.disable:hover {
-  color: #CCC;
-  font-weight: 600;
-}
-#Tengiz button.active {
-  border: 1px solid bisque;
-  background-color: rgb(250, 240, 221);
-}
-#Tengiz button.active:hover {
-  color: #CCC;
-  font-weight: 600;
-}
-#Tengiz .Description {
-  margin-top: 20px;
-  margin-left: 20px;
-}
-#Tengiz .Description .table_description {
-  text-align: left;
-  font-size: 14px;
-}
-#Tengiz .About_Item {
-  margin-top: 20px;
-  margin-left: 20px;
-  width: 300px;
-}
-#Tengiz .About_Item li {
-  font-size: 14px;
-}
-#Tengiz .link1 {
+  border-radius: 5px;
+  background-color: white;
   font-size: 12px;
-  text-decoration: none;
+  border: 1px solid grey;
+  cursor: pointer;
 }
-#Tengiz .link1:hover {
-  text-decoration: underline;
-}
-#Tengiz .Renewed {
-  margin-top: 20px;
-  width: 300px;
-}
-#Tengiz .Renewed .Note {
-  margin-top: 30px;
-  font-size: 14px;
-}
-#Tengiz .Renewed .Renewed_foto {
-  margin-top: 20px;
-  display: flex;
-  width: 300px;
-  gap: 10px;
-}
-#Tengiz .Renewed .Renewed_foto img {
-  width: 100px;
-}
-#Tengiz .Renewed .Renewed_foto .Renewed_h3 {
-  font-size: 16px;
-}
-#Tengiz .Renewed .Renewed_foto p {
-  font-size: 14px;
+#Tengiz .delivery .Sell button:hover {
+  background-color: #CCC;
 }/*# sourceMappingURL=style.css.map */
