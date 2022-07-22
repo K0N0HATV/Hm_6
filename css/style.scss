@@ -53,7 +53,8 @@
     .amazon {
         margin-top: 50px;
         display: flex;
-
+        .block1{
+            display: flex;
         .list {
             display: flex;
             margin-left: 20px;
@@ -98,7 +99,7 @@
             left: 93%;
         }
     }
-
+}
     .text {
         margin-left: 20px;
         width: 300px;

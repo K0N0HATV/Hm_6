@@ -43,35 +43,38 @@
   margin-top: 50px;
   display: flex;
 }
-#Tengiz .amazon .list {
+#Tengiz .amazon .block1 {
+  display: flex;
+}
+#Tengiz .amazon .block1 .list {
   display: flex;
   margin-left: 20px;
   position: -webkit-sticky;
   position: sticky;
 }
-#Tengiz .amazon .list li {
+#Tengiz .amazon .block1 .list li {
   list-style-type: none;
 }
-#Tengiz .amazon .list .small_picture {
+#Tengiz .amazon .block1 .list .small_picture {
   margin-bottom: 10px;
   border: 1px solid black;
   border-radius: 10%;
 }
-#Tengiz .amazon .list .li_button {
+#Tengiz .amazon .block1 .list .li_button {
   width: 40px;
   height: 40px;
 }
-#Tengiz .big_picture {
+#Tengiz .amazon .big_picture {
   margin-left: 10px;
   position: relative;
   position: -webkit-sticky;
   position: sticky;
 }
-#Tengiz .big_picture .picture {
+#Tengiz .amazon .big_picture .picture {
   width: 560px;
   height: 550px;
 }
-#Tengiz .big_picture .share {
+#Tengiz .amazon .big_picture .share {
   position: absolute;
   background-color: white;
   margin-top: 10px;
