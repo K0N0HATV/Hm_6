@@ -55,6 +55,10 @@
         display: flex;
         .block1{
             display: flex;
+            position: sticky;
+            height: 580px;
+            top: 4px;
+
         .list {
             display: flex;
             margin-left: 20px;

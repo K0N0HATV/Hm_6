@@ -45,6 +45,10 @@
 }
 #Tengiz .amazon .block1 {
   display: flex;
+  position: -webkit-sticky;
+  position: sticky;
+  height: 580px;
+  top: 4px;
 }
 #Tengiz .amazon .block1 .list {
   display: flex;
