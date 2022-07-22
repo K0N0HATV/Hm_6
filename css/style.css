@@ -278,6 +278,29 @@ section .block .border {
   width: 433px;
 }
 
+.choice p {
+  width: 132.3px;
+  padding-left: 8px;
+  padding-right: 3px;
+  height: 22px;
+  background-color: #232F3E;
+  border-color: #232F3E;
+  display: inline-flex;
+  color: white;
+}
+.choice p .span-orange {
+  color: #F69931;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.choice p .span {
+  width: 0;
+  height: 0;
+  border-right: 10px solid transparent;
+  border-top: 22px solid;
+  color: #232F3E;
+}
+
 #Tengiz .amazon {
   margin-top: 50px;
   display: flex;
