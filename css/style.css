@@ -819,11 +819,11 @@ section .conteiner .part_3 .part_3_3 .price div .a_img {
 .Zlo_Off .container {
   gap: 40px;
   height: 1000px;
-  min-width: 996px;
+  min-width: 1140px;
   display: flex;
 }
 .Zlo_Off .container .left_block {
-  padding-left: 50px;
+  margin-left: 30px;
   gap: 10px;
   display: flex;
   flex-direction: column;
@@ -831,14 +831,30 @@ section .conteiner .part_3 .part_3_3 .price div .a_img {
   position: -webkit-sticky;
   position: sticky;
   width: 642px;
+  height: 600px;
   top: 4px;
 }
 .Zlo_Off .container .left_block .top p {
   text-align: center;
   gap: 40px;
 }
-.Zlo_Off .container .right_block {
-  margin-left: 100px;
+.Zlo_Off .container .left_block .top .btn {
+  background-image: url("https://m.media-amazon.com/images/G/01/share-icons/share-std.svg");
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #fff;
+  height: 24px;
+  width: 24px;
+  cursor: pointer;
+}
+.Zlo_Off .container .right_block h2 {
+  margin-bottom: 10px;
 }
 .Zlo_Off .container .right_block .checked {
   color: orange;
@@ -865,6 +881,9 @@ section .conteiner .part_3 .part_3_3 .price div .a_img {
   padding-left: 5px;
   padding-right: 5px;
 }
+.Zlo_Off .container .right_block .aimg {
+  margin-top: 10px;
+}
 .Zlo_Off .container .right_block .a_img {
   color: #168342 !important;
   text-decoration: none !important;
@@ -876,6 +895,8 @@ section .conteiner .part_3 .part_3_3 .price div .a_img {
 .Zlo_Off .container .right_block .p2 {
   color: #555;
   font-weight: 400;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 .Zlo_Off .container .right_block .spantkl {
   font-weight: 700;
@@ -883,6 +904,7 @@ section .conteiner .part_3 .part_3_3 .price div .a_img {
   padding-left: 3px;
 }
 .Zlo_Off .container .right_block .disable {
+  margin: 10 10;
   padding: 5px 10px 5px 11px;
   color: #565959;
   background-color: transparent;
@@ -895,11 +917,16 @@ section .conteiner .part_3 .part_3_3 .price div .a_img {
   font-weight: 700;
 }
 .Zlo_Off .container .right_block .active {
+  margin: 10 10;
   cursor: pointer;
   padding: 5px 10px 5px 11px;
   background-color: #f3eee7;
   border: 1px solid orange;
   font-weight: 700;
+}
+.Zlo_Off .container .right_block .table {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .Zlo_Off .container .right_block .td1 {
   width: 100px;
@@ -927,21 +954,22 @@ section .conteiner .part_3 .part_3_3 .price div .a_img {
 .Zlo_Off .container .right_block .div4 {
   display: flex;
 }
+.Zlo_Off .container .right_block .div4 p {
+  width: 450px;
+}
+.Zlo_Off .container .right_block .div4 .div4_1 {
+  padding-left: 5px;
+}
+.Zlo_Off .container .right_block .Bottom_img {
+  position: relative;
+}
 .Zlo_Off .container .right_block .Bottom_img .img {
+  display: flex;
   width: 85px;
 }
-.Zlo_Off .container .right_block .btn {
-  background-image: url("https://m.media-amazon.com/images/G/01/share-icons/share-std.svg");
-  border: 1px solid #ddd;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  background-color: #fff;
-  height: 24px;
-  width: 24px;
-  cursor: pointer;
+.Zlo_Off .container .right_block .p5 {
+  width: 450px;
+}
+.Zlo_Off .container .right_block .p5 .span6 {
+  font-size: bold;
 }/*# sourceMappingURL=style.css.map */
