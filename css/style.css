@@ -57,6 +57,107 @@ section .conteiner .block .block_2 link span .checked {
   background-color: orange;
   color: orange;
 }
+section .block {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+section .block .block_1 {
+  max-width: 455px;
+  width: 100%;
+}
+section .block .block_1 h1 {
+  font-size: larger;
+  font-family: Arial, Helvetica, sans-serif;
+}
+section .block .block_1 a {
+  text-decoration: none;
+  color: rgb(92, 170, 215);
+  font-size: smaller;
+}
+section .block .block_2 {
+  display: flex;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+}
+section .block .block_2 .star {
+  display: flex;
+  justify-content: left;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+}
+section .block .block_2 .star .checked {
+  text-decoration: none;
+  color: orange;
+}
+section .block .block_2 .star a {
+  text-decoration: none;
+  color: rgb(92, 170, 215);
+  font-size: smaller;
+}
+section .block .block_3 {
+  display: flex;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+}
+section .block .block_3 p {
+  background-color: black;
+  color: white;
+  font-size: small;
+}
+section .block .block_3 p span {
+  color: orange;
+  font-size: small;
+}
+section .block .block_3 .p {
+  background-color: white;
+  font-size: small;
+  color: black;
+}
+section .block .block_4 {
+  display: flex;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+}
+section .block .block_4 svg {
+  text-decoration: none;
+  color: greenyellow;
+}
+section .block .block_4 a {
+  text-decoration: none;
+  color: greenyellow;
+}
+section .block .block_5 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+section .block .block_5 p {
+  font-size: small;
+  color: lightgrey;
+}
+section .block .block_5 p span {
+  font-weight: bolder;
+  color: black;
+}
+section .block .block_5 button {
+  color: lightgrey;
+  border-style: dashed;
+  border-width: 1px;
+  padding: 5px;
+  background-color: white;
+}
+section .block .button_5 {
+  color: black;
+  border-style: double;
+  border-color: orangered;
+  background-color: rgb(245, 229, 200);
+}
+section .block .border {
+  border: 1px solid lightgrey;
+  color: black;
+  background-color: white;
+}
 
 .amazon_2 {
   margin-top: 100px;
@@ -80,6 +181,18 @@ section .conteiner .block .block_2 link span .checked {
   flex-direction: column;
   gap: 10px;
 }
+.amazon_2 .container .left_block .left_img .list_img {
+  border: 1px solid gray;
+}
+.amazon_2 .container .left_block .left_img .list_img:hover {
+  box-shadow: 2px 2px 2px orangered;
+}
+.amazon_2 .container .left_block .left_img p {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 9px;
+  width: 40px;
+}
 .amazon_2 .container .left_block .right_img_div {
   display: flex;
   flex-direction: column;
@@ -90,6 +203,69 @@ section .conteiner .block .block_2 link span .checked {
   width: 596px;
 }
 .amazon_2 .container .left_block .right_img_div .svg {
+  background-image: url("https://m.media-amazon.com/images/G/01/share-icons/share-std.svg");
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 15px;
+  right: -10px;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  height: 26px;
+  width: 26px;
+  cursor: pointer;
+}
+.amazon_2 .container .svg {
+  background-image: url("https://m.media-amazon.com/images/G/01/share-icons/share-std.svg");
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #fff;
+  height: 24px;
+  width: 24px;
+  cursor: pointer;
+}
+
+.amazon {
+  margin-top: 100px;
+}
+.amazon .container {
+  height: 1000px;
+  min-width: 996px;
+}
+.amazon .container .left_block {
+  padding-left: 20px;
+  gap: 10px;
+  display: flex;
+  position: -webkit-sticky;
+  position: sticky;
+  align-items: flex-start;
+  width: 642px;
+  top: 4px;
+}
+.amazon .container .left_block .left_img {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.amazon .container .left_block .right_img_div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+.amazon .container .left_block .right_img_div .right_img {
+  width: 596px;
+}
+.amazon .container .left_block .right_img_div .svg {
   background-image: url("https://m.media-amazon.com/images/G/01/share-icons/share-std.svg");
   border: 1px solid #ddd;
   border-radius: 50%;
