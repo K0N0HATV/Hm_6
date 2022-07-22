@@ -7,7 +7,7 @@ section .conteiner {
 section .conteiner .box {
   display: flex;
   flex-direction: column;
-  row-gap: 10px;
+  row-gap: 5px;
 }
 section .conteiner .box .box_1 {
   max-width: 390px;
@@ -34,14 +34,14 @@ section .conteiner .box_2 picture img {
 section .conteiner .block {
   display: flex;
   flex-direction: column;
-  row-gap: 10px;
+  row-gap: 5px;
 }
 section .conteiner .block .block_1 {
   max-width: 455px;
   width: 100%;
 }
 section .conteiner .block .block_1 h1 {
-  font-size: larger;
+  font-size: x-large;
   font-family: Arial, Helvetica, sans-serif;
 }
 section .conteiner .block .block_1 a {
@@ -51,112 +51,189 @@ section .conteiner .block .block_1 a {
 }
 section .conteiner .block .block_2 {
   display: flex;
-  justify-content: flex-start;
-}
-section .conteiner .block .block_2 link span .checked {
-  background-color: orange;
-  color: orange;
-}
-section .block {
-  display: flex;
-  flex-direction: column;
-  row-gap: 10px;
-}
-section .block .block_1 {
-  max-width: 455px;
-  width: 100%;
-}
-section .block .block_1 h1 {
-  font-size: larger;
-  font-family: Arial, Helvetica, sans-serif;
-}
-section .block .block_1 a {
-  text-decoration: none;
-  color: rgb(92, 170, 215);
-  font-size: smaller;
-}
-section .block .block_2 {
-  display: flex;
   -moz-column-gap: 10px;
        column-gap: 10px;
 }
-section .block .block_2 .star {
+section .conteiner .block .block_2 .star {
   display: flex;
   justify-content: left;
   -moz-column-gap: 10px;
        column-gap: 10px;
 }
-section .block .block_2 .star .checked {
+section .conteiner .block .block_2 .star .checked {
   text-decoration: none;
   color: orange;
 }
-section .block .block_2 .star a {
+section .conteiner .block .block_2 .star a {
   text-decoration: none;
   color: rgb(92, 170, 215);
   font-size: smaller;
 }
-section .block .block_3 {
+section .conteiner .block .block_3 {
   display: flex;
   -moz-column-gap: 10px;
        column-gap: 10px;
 }
-section .block .block_3 p {
+section .conteiner .block .block_3 p {
   background-color: black;
   color: white;
   font-size: small;
+  margin-bottom: 10px;
 }
-section .block .block_3 p span {
+section .conteiner .block .block_3 p span {
   color: orange;
   font-size: small;
 }
-section .block .block_3 .p {
+section .conteiner .block .block_3 .p {
   background-color: white;
   font-size: small;
   color: black;
 }
-section .block .block_4 {
+section .conteiner .block .block_4 {
   display: flex;
   -moz-column-gap: 10px;
        column-gap: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid lightgrey;
 }
-section .block .block_4 svg {
+section .conteiner .block .block_4 svg {
+  text-decoration: none;
+  color: greenyellow;
+  margin-bottom: 10px;
+}
+section .conteiner .block .block_4 a {
   text-decoration: none;
   color: greenyellow;
 }
-section .block .block_4 a {
-  text-decoration: none;
-  color: greenyellow;
-}
-section .block .block_5 {
+section .conteiner .block .block_5 {
   display: flex;
   flex-direction: column;
-  row-gap: 10px;
+  row-gap: 5px;
 }
-section .block .block_5 p {
+section .conteiner .block .block_5 p {
   font-size: small;
   color: lightgrey;
 }
-section .block .block_5 p span {
+section .conteiner .block .block_5 p span {
   font-weight: bolder;
   color: black;
 }
-section .block .block_5 button {
+section .conteiner .block .block_5 button {
   color: lightgrey;
   border-style: dashed;
   border-width: 1px;
   padding: 5px;
   background-color: white;
 }
-section .block .button_5 {
+section .conteiner .block .block_5 .button_5 {
   color: black;
   border-style: double;
   border-color: orangered;
   background-color: rgb(245, 229, 200);
 }
-section .block .border {
+section .conteiner .block .block_5 .border {
   border: 1px solid lightgrey;
   color: black;
   background-color: white;
+}
+section .conteiner .block .block_6 {
+  margin-top: 20px;
+  display: flex;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+section .conteiner .block .block_6 .block_p6 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+section .conteiner .block .block_6 .block_p6 .p_6 {
+  color: black;
+  font-weight: bold;
+  font-size: medium;
+}
+section .conteiner .block .block_6 .p_6_2 {
+  color: black;
+  font-size: medium;
+}
+section .conteiner .block .block_7 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  max-width: 610px;
+  width: 100%;
+  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+}
+section .conteiner .block .block_7 h1 {
+  font-size: large;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+section .conteiner .block .block_7 ul {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+}
+section .conteiner .block .block_7 .before {
+  color: blue;
+  margin-top: 5px;
+  text-decoration: none;
+}
+section .conteiner .block .block_7 a {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: small;
+  color: blue;
+}
+section .conteiner .block .block_7 a span {
+  color: red;
+}
+section .conteiner .block .block_8 {
+  margin-top: 20px;
+  max-width: 610px;
+  width: 100%;
+}
+section .conteiner .block .block_8 h1 {
+  font-size: large;
+}
+section .conteiner .block .block_8 .block_8_1 {
+  display: flex;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+}
+section .conteiner .block .block_8 .block_8_1 div img {
+  max-width: 75px;
+  width: 100%;
+}
+section .conteiner .block .block_8 .block_8_1 div a {
+  color: blue;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+}
+section .conteiner .block .block_8 .block_8_1 div p {
+  color: red;
+}
+section .conteiner .block .block_8 .block_8_1 div .checked {
+  text-decoration: none;
+  color: orange;
+}
+section .conteiner .block .block_8 .block_8_1 div p {
+  color: black;
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
+}
+section .conteiner .block .block_8 .block_8_2 {
+  margin-top: 20px;
+}
+section .conteiner .block .block_8 .block_8_2 p {
+  font-size: medium;
+  color: black;
+}
+section .conteiner .block .block_8 .block_8_2 p span {
+  font-weight: bolder;
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .amazon_2 {
@@ -220,6 +297,7 @@ section .block .border {
   width: 26px;
   cursor: pointer;
 }
+
 
 .content-block {
   margin-left: 20px;
@@ -300,6 +378,8 @@ section .block .border {
   border-top: 22px solid;
   color: #232F3E;
 }
+
+
 
 #Tengiz .amazon {
   margin-top: 50px;
@@ -383,4 +463,94 @@ section .block .border {
   height: 24px;
   width: 24px;
   cursor: pointer;
+}
+.Zlo_Off .container .right_block .checked {
+  color: orange;
+}
+.right_block {
+margin-left: 20px;
+}
+.Zlo_Off .container .right_block .mane {
+  display: flex;
+}
+.Zlo_Off .container .right_block .befor::before {
+  content: "|";
+}
+.Zlo_Off .container .right_block .main {
+  display: flex;
+  gap: 10px;
+}
+.Zlo_Off .container .right_block .p1 {
+  background-color: #232F3E;
+  border-color: #232F3E;
+  display: inline-block;
+  min-width: 80px;
+  color: #fff;
+}
+.Zlo_Off .container .right_block .main1 {
+  color: #F69931;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.Zlo_Off .container .right_block .a_img {
+  color: #168342 !important;
+  text-decoration: none !important;
+}
+.Zlo_Off .container .right_block .img1 {
+  width: 26px;
+  height: 18px;
+}
+.Zlo_Off .container .right_block .p2 {
+  color: #555;
+  font-weight: 400;
+}
+.Zlo_Off .container .right_block .spantkl {
+  font-weight: 700;
+  color: black;
+  padding-left: 3px;
+}
+.Zlo_Off .container .right_block .disable {
+  padding: 5px 10px 5px 11px;
+  color: #565959;
+  background-color: transparent;
+  border: 1px dashed;
+  font-size: 13px;
+  cursor: pointer;
+}
+.Zlo_Off .container .right_block .disable:hover {
+  color: black;
+  font-weight: 700;
+}
+.Zlo_Off .container .right_block .active {
+  cursor: pointer;
+  padding: 5px 10px 5px 11px;
+  background-color: #f3eee7;
+  border: 1px solid orange;
+  font-weight: 700;
+}
+.Zlo_Off .container .right_block .td1 {
+  width: 100px;
+  font-weight: 700;
+}
+.Zlo_Off .container .right_block .td2 {
+  width: 200px;
+  color: #584b39;
+}
+.Zlo_Off .container .right_block ul {
+  margin-top: 10px;
+  padding-left: 10px;
+  width: 500px;
+}
+.Zlo_Off .container .right_block li {
+  color: #584b39;
+}
+.Zlo_Off .container .right_block .a3 {
+  color: rgb(96, 96, 214);
+  text-decoration: none;
+}
+.Zlo_Off .container .right_block .span_prize {
+  color: #cf8229;
+}
+.Zlo_Off .container .right_block .div4 {
+  display: flex;
 }/*# sourceMappingURL=style.css.map */
