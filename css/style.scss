@@ -711,11 +711,11 @@ section {
     .container {
         gap: 40px;
         height: 1000px;
-        min-width: 996px;
+        min-width: 1140px;
         display: flex;
 
         .left_block {
-            padding-left: 50px;
+           margin-left: 30px;
             gap: 10px;
             display: flex;
             flex-direction: column;
@@ -723,6 +723,7 @@ section {
             position: -webkit-sticky;
             position: sticky;
             width: 642px;
+            height: 600px;
             top: 4px;
 
             .top {
@@ -730,17 +731,36 @@ section {
                     text-align: center;
                     gap: 40px;
                 }
+                .btn {
+                    background-image: url("https://m.media-amazon.com/images/G/01/share-icons/share-std.svg");
+                    border: 1px solid #ddd;
+                    border-radius: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    position: absolute;
+                    top: 10px;
+                    right: 10px;
+                    background-color: #fff;
+                    height: 24px;
+                    width: 24px;
+                    cursor: pointer;
+                }
             }
 
         }
             .right_block {
-                margin-left: 100px;
+                h2 {
+                margin-bottom: 10px;
+                }
+                
+                
                 .checked {
                     color: orange;
                 }
 
                 .mane {
-                    display: flex;
+                display: flex;
                 }
 
                 .befor {
@@ -768,6 +788,10 @@ section {
                     padding-right: 5px;
                 }
 
+                .aimg {
+                margin-top: 10px;
+                
+                }
                 .a_img {
                     color: #168342 !important;
                     text-decoration: none !important;
@@ -781,6 +805,8 @@ section {
                 .p2 {
                     color: #555;
                     font-weight: 400;
+                    margin-top: 5px;
+                    margin-bottom: 5px;
                 }
 
                 .spantkl {
@@ -790,6 +816,7 @@ section {
                 }
 
                 .disable {
+                    margin: 10 10;
                     padding: 5px 10px 5px 11px;
                     color: #565959;
                     background-color: transparent;
@@ -804,11 +831,17 @@ section {
                 }
 
                 .active {
+                    margin: 10 10;
                     cursor: pointer;
                     padding: 5px 10px 5px 11px;
                     background-color: #f3eee7;
                     border: 1px solid orange;
                     font-weight: 700;
+                }
+
+                .table {
+                margin-top: 10px;
+                margin-bottom: 10px;
                 }
 
                 .td1 {
@@ -844,33 +877,27 @@ section {
                     display: flex;
                 }
 
-
+            
 
                 .Bottom_img {
+                    position: relative;
                     .img {
-                        width: 85px;
+                        display: flex;
+                    width: 85px;
                     }
                 }
 
-                .btn {
-                    background-image: url("https://m.media-amazon.com/images/G/01/share-icons/share-std.svg");
-                    border: 1px solid #ddd;
-                    border-radius: 50%;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    position: absolute;
-                    top: 10px;
-                    right: 10px;
-                    background-color: #fff;
-                    height: 24px;
-                    width: 24px;
-                    cursor: pointer;
+               
+                .p5 {
+                  width: 450px;
+                  .span6 {
+                    font-size: bold;
                 }
+                }
+              
 
-
-            }
 
         }
 
     }
+}
