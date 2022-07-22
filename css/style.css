@@ -271,4 +271,7 @@ section .conteiner .block .block_2 link span .checked {
 }
 .Zlo_Off .container .right_block .span_prize {
   color: #cf8229;
+}
+.Zlo_Off .container .right_block .div4 {
+  display: flex;
 }/*# sourceMappingURL=style.css.map */
