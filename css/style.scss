@@ -22,7 +22,7 @@
 @mixin column {
     display: flex;
     flex-direction: column;
-    row-gap: 10px;
+    row-gap: 5px;
 
 }
 
@@ -45,10 +45,12 @@ section {
 
         .box {
             @include column;
+            
 
 
             .box_1 {
                 max-width: 390px;
+                
 
 
                 picture {
@@ -86,52 +88,7 @@ section {
 
         }
 
-        .block {
-            @include column;
 
-
-            .block_1 {
-                max-width: 455px;
-                width: 100%;
-
-                h1 {
-                    font-size: larger;
-                    font-family: Arial, Helvetica, sans-serif;
-
-                }
-
-                a {
-                    text-decoration: none;
-                    color: rgb(92, 170, 215);
-                    font-size: smaller;
-
-                }
-            }
-
-            .block_2 {
-                display: flex;
-                justify-content: flex-start;
-
-                link {
-
-                    span {
-                        .checked {
-                            background-color: orange;
-                            color: orange;
-
-                        }
-                    }
-
-                }
-
-
-            }
-
-
-
-        }
-
-        }
 
         .block {
             @include column;
@@ -140,9 +97,10 @@ section {
             .block_1 {
                 max-width: 455px;
                 width: 100%;
+                
 
                 h1 {
-                    font-size: larger;
+                    font-size:x-large;
                     font-family: Arial, Helvetica, sans-serif;
 
                 }
@@ -158,6 +116,7 @@ section {
             .block_2 {
                 display: flex;
                 column-gap: 10px;
+               
 
 
                 .star {
@@ -185,10 +144,14 @@ section {
                     display: flex;
                     column-gap: 10px;
                 
+                   
+                   
+                
                     p{
                         background-color: black;
                         color:white;
                         font-size: small;
+                        margin-bottom: 10px;
                         span{
                             color: orange;
                             font-size: small;
@@ -198,21 +161,28 @@ section {
                         background-color: white;
                     font-size: small;
                     color: black;
+                   
+                   
 
                     }
                 }
 
                     .block_4{
                         @include column-gap;
+                        margin-bottom: 10px;
+                        border-bottom: 1px solid lightgrey;
+                       
 
                        
                         svg{
                             text-decoration: none;
                             color: greenyellow;
+                            margin-bottom: 10px;
                         }
                     a{
                         text-decoration: none;
                         color: greenyellow;
+                        
                     }
                     
                     }
@@ -228,19 +198,16 @@ section {
                             }
                         }
 
-                    
+                  
                     button{
                         color: lightgrey;
                         border-style:  dashed ;
                         border-width: 1px;
                         padding: 5px;
                         background-color: white;
-
-
+                        
                     }
-
-
-                    }
+                    
                     .button_5{
                         color: black;
                         border-style: double ;
@@ -254,12 +221,134 @@ section {
                         color: black;
                         background-color: white;
                     }
+                    
+                }
+
+                .block_6{
+                    margin-top: 20px;
+                    display: flex;
+                    column-gap: 20px;
+                    
+                .block_p6{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+
+                .p_6{
+                    color: black;
+                    font-weight: bold;
+                    font-size: medium;
+                }
+                }
+                .p_6_2{
+                    color: black;
+                    font-size: medium;
+                }
+                    
+                }
+
+                .block_7{
+                    display: flex;
+                    flex-direction: column;
+                    margin-top: 20px;
+                   
+                    max-width: 610px;
+                    width: 100%;
+                    border-top: 1px solid lightgrey;
+                    border-bottom: 1px solid lightgrey;
+                    
+                    h1{
+                        font-size:large;
+                        font-weight: bold;
+                        font-family: Arial, Helvetica, sans-serif;
                     }
 
+                    ul{
+                        font-family: Arial, Helvetica, sans-serif;
+                       font-size:medium;
+                    }
+                    .before{
+                        color: blue;
+                        margin-top: 5px;
+                        text-decoration: none;
+                    }
 
+                    a{
+                        margin-top: 20px;
+                        margin-bottom: 20px;
+                        font-size: small;
+                        color: blue;
 
+                        span{
+                            color: red;
+                        }
+                    }
+                }
+                
+                .block_8{
+                    margin-top: 20px;
+                    max-width: 610px;
+                    width: 100%;
+                    
+                    h1{
+                        font-size: large;
+                    }
+                    .block_8_1{
+                        display: flex;
+                        column-gap: 10px;
+                    div{
+                       
+                        img{
+                            max-width: 75px;
+                            width: 100%;
+                        }
+                    }
 
+                    div{
+                        a{
+                            color: blue;
+                            text-decoration: none;
+                            font-family: Arial, Helvetica, sans-serif;
+                            font-size: medium;
+                        }
+                    p{
+                        color: red;
+                    }
+                    .checked {
+                        text-decoration: none;
+                        color: orange;
+
+                    }
+                    p{
+                        color: black;
+                        font-size: medium;
+                        font-family: Arial, Helvetica, sans-serif;
+                    }
+
+                }
             }
+
+                .block_8_2{
+                    margin-top: 20px;
+                    p{
+                        font-size: medium;
+                        color: black;
+                        span{
+                            font-weight: bolder;
+                            font-size: medium;
+                            font-family: Arial, Helvetica, sans-serif;
+                        }
+                    }
+                }
+
+
+                    
+
+
+
+                }
+            }
+   }   }      
 
 
 
