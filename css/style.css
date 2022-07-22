@@ -240,6 +240,7 @@ section .conteiner .block .block_8 .block_8_2 p span {
   margin-top: 100px;
 }
 .amazon_2 .container {
+  display: flex;
   height: 1000px;
   min-width: 996px;
 }
@@ -250,7 +251,7 @@ section .conteiner .block .block_8 .block_8_2 p span {
   position: -webkit-sticky;
   position: sticky;
   align-items: flex-start;
-  width: 642px;
+  height: 400px;
   top: 4px;
 }
 .amazon_2 .container .left_block .left_img {
@@ -260,6 +261,7 @@ section .conteiner .block .block_8 .block_8_2 p span {
 }
 .amazon_2 .container .left_block .left_img .list_img {
   border: 1px solid gray;
+  cursor: pointer;
 }
 .amazon_2 .container .left_block .left_img .list_img:hover {
   box-shadow: 2px 2px 2px orangered;
@@ -288,13 +290,96 @@ section .conteiner .block .block_8 .block_8_2 p span {
   justify-content: center;
   position: absolute;
   top: 15px;
-  right: -10px;
+  right: 30px;
   background-color: #fff;
   background-repeat: no-repeat;
   height: 26px;
   width: 26px;
   cursor: pointer;
 }
+
+
+.content-block {
+  margin-left: 20px;
+}
+.content-block .content-block-p-a p {
+  font-size: 24px;
+  line-height: 32px;
+}
+.content-block .content-block-p-a .content-block-a {
+  text-decoration: none;
+  color: #007185;
+}
+.content-block .content-block-p-a .content-block-a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: #C7511F;
+  outline: 0;
+}
+.content-block .star {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+.content-block .star .after-star::after {
+  content: "";
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  border: solid black;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 2.4px;
+  margin-left: 4px;
+  margin-bottom: 2px;
+}
+.content-block .star .checked {
+  color: orange;
+}
+.content-block .star .e--af::before {
+  content: "|";
+  padding-left: 10px;
+  color: gray;
+}
+.content-block .star .content-block-a {
+  text-decoration: none;
+  color: #007185;
+  margin-left: 10px;
+}
+.content-block .star .content-block-a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: #C7511F;
+  outline: 0;
+}
+
+.content-all {
+  width: 433px;
+}
+
+.choice p {
+  width: 132.3px;
+  padding-left: 8px;
+  padding-right: 3px;
+  height: 22px;
+  background-color: #232F3E;
+  border-color: #232F3E;
+  display: inline-flex;
+  color: white;
+}
+.choice p .span-orange {
+  color: #F69931;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.choice p .span {
+  width: 0;
+  height: 0;
+  border-right: 10px solid transparent;
+  border-top: 22px solid;
+  color: #232F3E;
+}
+
+
 
 #Tengiz .amazon {
   margin-top: 50px;
