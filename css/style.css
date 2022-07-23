@@ -469,28 +469,9 @@ section .conteiner .part_3 .part_3_3 .price div .a_img {
   margin-bottom: 14px;
   margin-top: 0;
 }
-.content-block .content-block-p-a p {
+.content-block .content-block-p-a .content-block-p {
   font-size: 24px;
   line-height: 32px;
-}
-.content-block .content-block-p-a p::before {
-  content: "";
-  transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
-  border: solid black;
-  border-width: 0 2px 2px 0;
-  display: inline-block;
-  padding: 2.4px;
-  margin-left: 4px;
-  margin-bottom: 2px;
-}
-.content-block .content-block-p-a p::after {
-  content: "";
-  width: 0;
-  height: 0;
-  border-right: 10px solid transparent;
-  border-top: 22px solid;
-  color: #232F3E;
 }
 .content-block .content-block-p-a .content-block-a {
   text-decoration: none;
