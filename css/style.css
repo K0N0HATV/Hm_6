@@ -1,9 +1,5 @@
-
-
-
-
+@charset "UTF-8";
 section .conteiner {
-
   display: flex;
   justify-content: center;
   gap: 19px;
@@ -835,7 +831,6 @@ section .conteiner .part_3 .part_3_3 .price div .a_img {
 }
 #Tengiz .amazon .block2 {
   margin-left: 20px;
-
 }
 #Tengiz .amazon .block2 .text {
   width: 300px;
@@ -1104,8 +1099,6 @@ section .conteiner .part_3 .part_3_3 .price div .a_img {
 }
 #Tengiz .delivery .Sell button:hover {
   background-color: #CCC;
-
-  width: 450px;
 }
 
 .Zlo_Off {
@@ -1375,5 +1368,4 @@ section .conteiner .part_3 .part_3_3 .price div .a_img {
   height: 24px;
   width: 24px;
   cursor: pointer;
-
 }/*# sourceMappingURL=style.css.map */
